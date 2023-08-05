@@ -1,0 +1,13 @@
+create database BasePersona;
+use BasePersona;
+create table persona(
+Id_persona int primary key auto_increment,
+Nombre varchar(50) not null,
+Apellido varchar(50) not null,
+Edad int not null,
+Genero varchar(1) not null,
+DNI int(8) not null
+);
+
+
+04/08/2023
